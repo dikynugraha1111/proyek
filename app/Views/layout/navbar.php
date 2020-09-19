@@ -11,7 +11,7 @@
           <nav class="nav-menu d-none d-lg-block">
               <ul>
                   <li class="active"><a href="/">Home</a></li>
-                  <li><a href="#about">About</a></li>
+                  <li><a href="/Orang">Data</a></li>
                   <li><a href="#features">Features</a></li>
                   <li><a href="#gallery">Gallery</a></li>
                   <li><a href="#team">Team</a></li>
@@ -34,7 +34,7 @@
                       </ul>
                   </li>
                   <li><a href="#contact">Contact</a></li>
-                  <li class="btn btn-success" style="border-right-width: 23px; margin-left:13px"><a href="#" role="button" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                  <li class="btn btn-success" style="border-right-width: 23px; margin-left:13px"><a href="/login" role="button">Login</a></li>
 
               </ul>
           </nav><!-- .nav-menu -->
@@ -42,29 +42,29 @@
       </div>
   </header><!-- End Header -->
   <!-- BEGIN # MODAL LOGIN -->
-  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <!-- <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
       <div class="modal-dialog">
           <div class="modal-content">
-              <div class="modal-header" align="center">
-                  <img class="img-circle" id="img_logo" src="http://bootsnipp.com/img/logo.jpg">
+              <div class="modal-header ">
+                  <img class="img-circle" id="img_logo" src="assets/img/sman1.png">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
                   </button>
-              </div>
+              </div> -->
 
-              <!-- Begin # DIV Form -->
-              <div id="div-forms">
+  <!-- Begin # DIV Form -->
+  <!-- <div id="div-forms"> -->
 
-                  <!-- Begin # Login Form -->
-                  <form id="login-form">
+  <!-- Begin # Login Form -->
+  <!-- <form id="login-form">
                       <div class="modal-body">
                           <div id="div-login-msg">
                               <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
-                              <span id="text-login-msg">Type your username and password.</span>
+                              <span id="text-login-msg">Masukan Username dan Password.</span>
                           </div>
                           <input id="login_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
                           <input id="login_password" class="form-control" type="password" placeholder="Password" required>
-                          <div class="checkbox">
+                          <div class="checkbox" style="margin-top: 10px;">
                               <label>
                                   <input type="checkbox"> Remember me
                               </label>
@@ -79,12 +79,12 @@
                               <button id="login_register_btn" type="button" class="btn btn-success">Register</button>
                           </div>
                       </div>
-                  </form>
-                  <!-- End # Login Form -->
+                  </form> -->
+  <!-- End # Login Form -->
 
-              </div>
-              <!-- End # DIV Form -->
+  <!-- </div> -->
+  <!-- End # DIV Form -->
 
-          </div>
-      </div>
+  </div>
+  </div>
   </div>

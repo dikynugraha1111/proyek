@@ -787,7 +787,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/sman1.png") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
@@ -843,7 +843,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #3f43fd;
+  border-left: 15px solid #dc3545;
   transform: scale(20);
 }
 
@@ -1138,6 +1138,7 @@ section {
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
+  height: 350px;
 }
 
 .team .member img {

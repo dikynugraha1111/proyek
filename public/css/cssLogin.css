@@ -20,7 +20,7 @@ input[type="password"] {
 #div-login-msg,
 #div-lost-msg,
 #div-register-msg {
-  border: 1px solid #dadfe1;
+  border: 0px solid #dadfe1;
   height: 30px;
   line-height: 28px;
   transition: all ease-in-out 500ms;
@@ -67,6 +67,7 @@ input[type="password"] {
 #img_logo {
   max-height: 100px;
   max-width: 100px;
+  margin-left: auto;
 }
 
 /* #########################################
@@ -89,6 +90,7 @@ input[type="password"] {
   min-height: 16.43px;
   padding: 15px 15px 15px 15px;
   border-bottom: 0px;
+  align-items: center;
 }
 
 .modal-body {
@@ -97,7 +99,7 @@ input[type="password"] {
 }
 
 .modal-footer {
-  padding: 15px 15px 15px 15px;
+  padding: 5px 15px 15px 15px;
   text-align: left;
   border-top: 0px;
 }

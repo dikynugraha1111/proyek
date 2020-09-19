@@ -4,15 +4,14 @@
 
 <!-- ======= Hero Section ======= -->
 <section id="hero">
-
     <div class="container">
         <div class="row">
             <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
                 <div data-aos="zoom-out">
-                    <h1>Lihat Dokumentasimu Sekarang <span>UAD</span></h1>
+                    <h1>Lihat Arsip+Kita Sekarang <span>UAD</span></h1>
                     <h2>Cari dan temukan record datamu <span>SEKARANG</span></h2>
                     <div class="text-center text-lg-left">
-                        <a href="#about" class="btn-get-started scrollto">Find Data</a>
+                        <a href="#find-data" class="btn-get-started scrollto">Find Data</a>
                     </div>
                 </div>
             </div>
@@ -36,9 +35,10 @@
             <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
         </g>
     </svg>
+</section>
+<!-- End Hero -->
 
-</section><!-- End Hero -->
-
+<!-- End of header -->
 <main id="main">
 
     <!-- ======= About Section ======= -->
@@ -47,28 +47,28 @@
 
             <div class="row">
                 <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                    <a href="https://www.youtube.com/watch?v=7gmIWJOYbp8" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
                 </div>
 
                 <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-                    <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+                    <h3>Tentang Arsip+Kita</h3>
                     <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
 
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                        <h4 class="title"><a href="">Temukan Dengan NIS</a></h4>
                         <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                     </div>
 
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="icon"><i class="bx bx-gift"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
+                        <div class="icon"><i class="ri-base-station-line"></i></div>
+                        <h4 class="title"><a href="">Data Update dan Tersinkron</a></h4>
                         <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                     </div>
 
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon"><i class="bx bx-atom"></i></div>
-                        <h4 class="title"><a href="">Dine Pad</a></h4>
+                        <h4 class="title"><a href="">Kemudahan di genggaman Tangan</a></h4>
                         <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
                     </div>
 
@@ -79,7 +79,8 @@
     </section><!-- End About Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+
+    <!-- <section id="features" class="features">
         <div class="container">
 
             <div class="section-title" data-aos="fade-up">
@@ -163,43 +164,50 @@
             </div>
 
         </div>
-    </section><!-- End Features Section -->
+    </section>
+     -->
+    <!-- End Features Section -->
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
         <div class="container">
 
+            <div class="section-title mt-5 mb-5" data-aos="fade-up">
+                <h2>Features</h2>
+                <p>Check The Features</p>
+            </div>
+
             <div class="row" data-aos="fade-up">
 
                 <div class="col-lg-3 col-md-6">
                     <div class="count-box">
-                        <i class="icofont-simple-smile"></i>
-                        <span data-toggle="counter-up">232</span>
-                        <p>Happy Clients</p>
+                        <i class="icofont-home"></i>
+                        <span data-toggle="counter-up">1965</span>
+                        <p>Berdiri Sejak</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                     <div class="count-box">
-                        <i class="icofont-document-folder"></i>
-                        <span data-toggle="counter-up">521</span>
-                        <p>Projects</p>
+                        <i class="icofont-users-alt-5"></i>
+                        <span data-toggle="counter-up">79301</span>
+                        <p>Alumni</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="count-box">
+                        <i class="icofont-teacher"></i>
+                        <span data-toggle="counter-up">65</span>
+                        <p>Tenaga Pengajar</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box">
                         <i class="icofont-live-support"></i>
-                        <span data-toggle="counter-up">1,463</span>
-                        <p>Hours Of Support</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                    <div class="count-box">
-                        <i class="icofont-users-alt-5"></i>
-                        <span data-toggle="counter-up">15</span>
-                        <p>Hard Workers</p>
+                        <span data-toggle="counter-up">12</span>
+                        <p>Tenaga Karyawan</p>
                     </div>
                 </div>
 
@@ -211,6 +219,11 @@
     <!-- ======= Details Section ======= -->
     <section id="details" class="details">
         <div class="container">
+
+            <div class="section-title mt-1 mb-5" data-aos="fade-up">
+                <h2>Features</h2>
+                <p>Check More Details</p>
+            </div>
 
             <div class="row content">
                 <div class="col-md-4" data-aos="fade-right">
@@ -300,7 +313,9 @@
             </div>
 
         </div>
-    </section><!-- End Details Section -->
+    </section>
+
+    <!-- End Details Section -->
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
@@ -380,10 +395,51 @@
             </div>
 
         </div>
-    </section><!-- End Gallery Section -->
+
+    </section>
+    <!-- End Gallery Section -->
+
+    <section id="find-data">
+
+        <div class="container" data-aos="fade-up">
+            <div class="section-title mt-3" data-aos="fade-up">
+                <h2>Features</h2>
+                <p>Find Data</p>
+            </div>
+        </div>
+
+        <!-- Nyolong class testimonials -->
+        <div class="testimonials" data-aos="fade-up">
+            <div class="container" data-aos="zoom-in">
+                <div class="testimonial-item">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                    <h3>WkwkMan</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+
+                    <form>
+                        <div class="form-row align-items-center" style="margin-left: 60px;">
+                            <div class="col-sm-10 my-1">
+                                <label class="sr-only" for="inlineFormInputName">Name</label>
+                                <input type="text" class="form-control rounded" id="inlineFormInputName" placeholder="Jane JOMBLO tur yo SEMANGAT nggolek MANTAN">
+                            </div>
+                            <div class="col-auto ">
+                                <button type="submit" class="btn btn-primary">Golek'i...</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Nyolong Class -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
         <div class="container">
 
             <div class="owl-carousel testimonials-carousel" data-aos="zoom-in">
@@ -446,13 +502,14 @@
             </div>
 
         </div>
-    </section><!-- End Testimonials Section -->
+    </section> -->
+    <!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
         <div class="container">
 
-            <div class="section-title" data-aos="fade-up">
+            <div class="section-title mt-3" data-aos="fade-up">
                 <h2>Team</h2>
                 <p>Our Great Team</p>
             </div>
@@ -461,7 +518,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="assets/img/team/tim1.jpeg" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Walter White</h4>
                             <span>Chief Executive Officer</span>
@@ -477,9 +534,9 @@
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
                     <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="assets/img/team/tim2.jpeg" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
+                            <h4>JOMBLO</h4>
                             <span>Product Manager</span>
                             <div class="social">
                                 <a href=""><i class="icofont-twitter"></i></a>
@@ -493,7 +550,7 @@
 
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="assets/img/team/tim3.jpeg" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>William Anderson</h4>
                             <span>CTO</span>
@@ -529,7 +586,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
         <div class="container">
 
             <div class="section-title" data-aos="fade-up">
@@ -611,7 +668,8 @@
             </div>
 
         </div>
-    </section><!-- End Pricing Section -->
+    </section> -->
+    <!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -691,19 +749,19 @@
                         <div class="address">
                             <i class="icofont-google-map"></i>
                             <h4>Location:</h4>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <p>Jl. Monginsidi, Magetan</p>
                         </div>
 
                         <div class="email">
                             <i class="icofont-envelope"></i>
                             <h4>Email:</h4>
-                            <p>info@example.com</p>
+                            <p>sman1magetan@sch.id</p>
                         </div>
 
                         <div class="phone">
                             <i class="icofont-phone"></i>
                             <h4>Call:</h4>
-                            <p>+1 5589 55488 55s</p>
+                            <p>+8993208409</p>
                         </div>
 
                     </div>
