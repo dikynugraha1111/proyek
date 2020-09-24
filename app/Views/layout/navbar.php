@@ -11,8 +11,8 @@
           <nav class="nav-menu d-none d-lg-block">
               <ul>
                   <li class="active"><a href="/">Home</a></li>
-                  <li><a href="/Orang">Data</a></li>
-                  <li><a href="#features">Features</a></li>
+                  <li><a href="/Siswa">Data</a></li>
+                  <li><a href="/SiswaDataTable">Data Table</a></li>
                   <li><a href="#gallery">Gallery</a></li>
                   <li><a href="#team">Team</a></li>
                   <li><a href="#pricing">Pricing</a></li>
