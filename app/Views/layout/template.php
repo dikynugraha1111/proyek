@@ -31,6 +31,10 @@
   <!-- <link rel="stylesheet" href="/css/style.css"> -->
   <link rel="/stylesheet" href="/css/cssLogin.css">
 
+  <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
   <!-- =======================================================
   * Template Name: Bootslander - v2.2.0
   * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/

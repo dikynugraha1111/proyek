@@ -11,7 +11,7 @@
                     <h1>Lihat Arsip+Kita Sekarang <span>UAD</span></h1>
                     <h2>Cari dan temukan record datamu <span>SEKARANG</span></h2>
                     <div class="text-center text-lg-left">
-                        <a href="#find-data" class="btn-get-started scrollto">Find Data</a>
+                        <a href="/Siswa" class="btn-get-started scrollto">Find Data</a>
                     </div>
                 </div>
             </div>
@@ -52,24 +52,24 @@
 
                 <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
                     <h3>Tentang Arsip+Kita</h3>
-                    <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+                    <p>Arsip+Kita dibangun atas problem yang terjadi di lingkungan sekolah. Dengan adanya permintaan data dari alumni, ataupun perusahaan yang ingin mengetahui jejak data dari alumni SMAN 1 Magetan..</p>
 
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
                         <h4 class="title"><a href="">Temukan Dengan NIS</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        <p class="description">Anda dapat dengan mudah menemukan data dengan inputan NISN</p>
                     </div>
 
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon"><i class="ri-base-station-line"></i></div>
                         <h4 class="title"><a href="">Data Update dan Tersinkron</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        <p class="description">Data yang ada kami jamin update dan tersinkronisasi dengan baik, dengan didukung API tersendiri yang kami buat</p>
                     </div>
 
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon"><i class="bx bx-atom"></i></div>
                         <h4 class="title"><a href="">Kemudahan di genggaman Tangan</a></h4>
-                        <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                        <p class="description">Dapatkan dengan mudah mencari dan menemukan data tanpa hambatan MANTAN</p>
                     </div>
 
                 </div>

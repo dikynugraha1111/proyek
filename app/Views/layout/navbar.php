@@ -15,7 +15,7 @@
                   <li class="nav-menu"><a href="#counts">Feature</a></li>
                   <li class="nav-menu"><a href="#gallery">Gallery</a></li>
                   <li class="nav-menu"><a href="#team">Team</a></li>
-                  <li class="nav-menu"><a href="#pricing">Pricing</a></li>
+                  <li class="nav-menu"><a href="http://localhost:8082/">Pricing</a></li>
                   <li class="nav-menu drop-down"><a href="">Drop Down</a>
                       <ul>
                           <li><a href="#">Drop Down 1</a></li>
