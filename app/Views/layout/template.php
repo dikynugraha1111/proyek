@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title><?= $title; ?></title>
 
@@ -31,9 +31,6 @@
   <!-- <link rel="stylesheet" href="/css/style.css"> -->
   <link rel="/stylesheet" href="/css/cssLogin.css">
 
-  <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 
   <!-- =======================================================
   * Template Name: Bootslander - v2.2.0
@@ -65,7 +62,7 @@
 
   <!-- Template Main JS File -->
   <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/link.js"></script>
+  <!-- <script src="/assets/js/link.js"></script> -->
 
 </body>
 
