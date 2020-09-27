@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/login', 'Login::index');
 $routes->get('/Siswa/(:num)', 'Siswa::getSiswa/$1');
+$routes->get('/Data/(:num)', 'Data::detail/$1');
 
 /**
  * --------------------------------------------------------------------

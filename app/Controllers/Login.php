@@ -19,11 +19,20 @@ class Login extends BaseController
 		$password = $this->request->getPost('password');
 
 		if ($username == "admin" && $password == "admin") {
-			return redirect()->to("http://localhost:8082/");
+			session()->set('username',$username);
+			session()->set('password',$password);
+			return redirect()->to('/AdminData');
 		} else {
 			session()->setFlashdata('pesan', 'Username atau Password SALAH');
 			return redirect()->to('/Login');
 		}
+	}
+
+	public function logOut(){
+		session()->remove('username');
+		session()->remove('password');
+		session()->setFlashdata('sukses', 'Anda berhasil Log Out');
+		return redirect()->to('/Login');
 	}
 
 	//--------------------------------------------------------------------
