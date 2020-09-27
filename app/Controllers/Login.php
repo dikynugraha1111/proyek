@@ -31,7 +31,7 @@ class Login extends BaseController
 	public function logOut(){
 		session()->remove('username');
 		session()->remove('password');
-		session()->setFlashdata('sukses', 'Anda berhasil Log Out');
+		session()->setFlashdata('success', 'Anda berhasil Log Out');
 		return redirect()->to('/Login');
 	}
 

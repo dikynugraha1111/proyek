@@ -1,14 +1,20 @@
 <?= $this->extend('layout_admin/template'); ?>
 
 <?php $this->section('body'); ?>
+
 <!-- Begin Page Content -->
 <div class="container-fluid">
     <div class="container-fluid">
+        <div class="flash-data" data-flashdata="<?= session()->getFlashdata('pesan'); ?>">
+        
+        </div>
+        
         <?php if (session()->getFlashdata('pesan')) : ?>
-            <div class="alert alert-success" role="alert">
+            <!-- <div class="alert alert-success" role="alert">
                 <?= session()->getFlashdata('pesan'); ?>
-            </div>
+            </div> -->
         <?php endif; ?>
+
 
         <!-- Page Heading -->
         <h1 class="h3 mb-2 text-gray-800">Tables</h1>
@@ -63,7 +69,7 @@
                                     </td>
                                     <td><a href="/Data/<?= $i['id_data_siswa']; ?>" class="btn btn-primary">Detail</a>
                                         <a href="/Data/edit/<?= $i['id_data_siswa']; ?>" class="btn btn-warning">Edit</a>
-                                        <a class="btn btn-danger" href="/Data/delete/<?= $i['id_data_siswa']; ?>">Delete</a>
+                                        <a class="tombol-hapus btn btn-danger" href="/Data/delete/<?= $i['id_data_siswa']; ?>">Delete</a>
                                              
                                     </td>
                                 </tr>
@@ -120,6 +126,10 @@
                 </div>
             </div>
         </div>
+        <!-- end of modal -->
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="/package/dist/sweetalert2.all.min.js"></script>
+    <script src="/package/dist/sweet.js"></script>
     <!-- /.container-fluid -->
     <?php $this->endSection('body'); ?>
