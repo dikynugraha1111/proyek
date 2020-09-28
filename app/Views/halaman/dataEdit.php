@@ -10,7 +10,7 @@ $this->section('body'); ?>
     <div class="col-md-6">
         <div class="card">
             <div class="card-header">
-                Form Ubah Data Mahasiswa
+                <b> Form Ubah Data Mahasiswa</b>
             </div>
             <div class="card-body">
                 <form action="/Data/saveEdit" method="post">
