@@ -94,7 +94,6 @@
                     <div class="text-center mb-1 mt-3">
                         <img class="img-circle" id="img_logo" src="assets/img/sman1.png" style="height: 100px;">
                     </div>
-
                     <div class="modal-body">
                         <form action="Data/create" method="POST" enctype="multipart/form-data">
                             <!-- <input type="hidden" name="id" id="id"> -->
@@ -125,9 +124,19 @@
                             <div class="form-group">
                                 <label for="ijazah">Ijazah</label>
                                 <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="fileupload" name="fileupload" onchange="
+                                    const value = document.getElementById('fileupload');
+                                    const newValue = value.value;
+                                    const label = document.getElementById('label-file')
+                                    label.textContent = newValue;
+                                    ">
+                                    <label class="custom-file-label" for="fileupload" id="label-file">Pilih file</label>
+                                </div>
+
+                                <!-- <div class="custom-file">
                                     <input type="file" class="custom-file-input" id="fileupload" name="fileupload" onchange="fileupload()">
                                     <label class="custom-file-label" for="fileupload">Pilih file</label>
-                                </div>
+                                </div> -->
                             </div>
                     </div>
                     <div class="modal-footer">
@@ -143,13 +152,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="/package/dist/sweetalert2.all.min.js"></script>
     <script src="/package/dist/sweet.js"></script>
-    <script type="text/javascript">
-        function fileupload() {
-            const fileupload = document.querySelector('.custom-file-input');
-            const fileLabel = document.querySelector('.custom-file-label');
-            fileLabel.textContent = fileupload.files[0];
-        }
-    </script>
+
 
 
 

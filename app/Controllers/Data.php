@@ -88,10 +88,10 @@ class Data extends BaseController
         }
         // validasi gambar
         $this->validate([
-            'file' => 'max_size[file,1024]|mime_in[file,image/jpg,image/jpeg,image/png]|is_image[file]'
+            'fileupload' => 'max_size[file,1024]|mime_in[file,image/jpg,image/jpeg,image/png]|is_image[file]'
         ]);
         // ambil file
-        $fileupload = $this->request->getFile('file');
+        $fileupload = $this->request->getFile('fileupload');
         // cek apakaah ada gambar
         if ($fileupload->getError() == 4) {
             $namafile = 'default.jpg';
