@@ -29,7 +29,10 @@ class DataUser extends Model
         // return $this->db->get('mahasiswa')->result_array();
 
         $result = json_decode($response->getBody()->getContents(), true);
-        // d($result['data']);
-        return $result['data'][0];
+        if ($result['status'] == 'success') {
+            return $result['data'][0];
+        } else {
+            return 0;
+        }
     }
 }

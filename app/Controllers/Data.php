@@ -3,13 +3,19 @@
 namespace App\Controllers;
 
 use App\Models\DataModel;
+use App\Models\DataPelanggaranModel;
+use App\Models\DataPrestasiModel;
 
 class Data extends BaseController
 {
     protected $dataModel;
+    protected $dataPelanggaranModel;
+    protected $dataPrestasiModel;
     public function __construct()
     {
         $this->dataModel = new DataModel();
+        $this->dataPelanggaranModel = new DataPelanggaranModel();
+        $this->dataPrestasiModel = new DataPrestasiModel();
     }
 
     public function index()
@@ -33,10 +39,17 @@ class Data extends BaseController
             return redirect()->to('/Login');
         }
 
-        $data = [
-            'siswa' => $this->dataModel->getDataId($id),
+        $data = $this->dataModel->getDataId($id);
+        $dataPrestasi = $this->dataPrestasiModel->getIdDataSiswa($id);
+        $dataPelanggaran = $this->dataPelanggaranModel->getIdDataSiswa($id);
+
+        $all = [
+            'siswa' => $data,
+            'prestasi' => $dataPrestasi,
+            'pelanggaran' => $dataPelanggaran,
         ];
-        return view('halaman/dataDetail', $data);
+
+        return view('halaman/dataDetail', $all);
     }
 
     public function edit($id)
@@ -54,6 +67,24 @@ class Data extends BaseController
 
     public function saveEdit()
     {
+        // validasi gambar
+        $this->validate([
+            'fileupload' => 'max_size[file,1024]|mime_in[file,image/jpg,image/jpeg,image/png]|is_image[file]'
+        ]);
+        // ambil file
+        $fileupload = $this->request->getFile('fileupload');
+        // cek apakaah ada gambar
+        if ($fileupload->getError() == 4) {
+            $namafile = $this->request->getPost('fileLama');;
+        } else {
+            // ambil nama sampul
+            $nama = $fileupload->getName();
+            $namafile = $this->request->getPost('id') . $nama;
+            // pindahkan file
+            $fileupload->move('gambar/ijazah', $namafile);
+            //hapus file lama
+            unlink('gambar/ijazah/' . $this->request->getPost('fileLama'));
+        }
         $data = [
             'id' => $this->request->getPost('id'),
             'nama' => $this->request->getPost('nama'),
@@ -62,6 +93,7 @@ class Data extends BaseController
             'alamat' => $this->request->getPost('alamat'),
             'tgl_lahir' => $this->request->getPost('tgl_lahir'),
             'lulus' => $this->request->getPost('lulus'),
+            'ijazah' => $namafile,
         ];
         $this->dataModel->dataEdit($data);
         session()->setFlashdata('pesan', 'Data berhasil diubah');
@@ -75,6 +107,8 @@ class Data extends BaseController
             session()->setFlashdata('pesan', 'Anda Belum Login');
             return redirect()->to('/Login');
         }
+        $data = $this->dataModel->getDataId($id);
+        unlink('gambar/ijazah/' . $data['ijazah']);
         $this->dataModel->deleteData($id);
         session()->setFlashdata('pesan', 'Data berhasil dihapus');
         return redirect()->to('/Data');
@@ -112,7 +146,6 @@ class Data extends BaseController
             'lulus' => $this->request->getPost('lulus'),
             'fileupload' => $namafile,
         ];
-        dd($data);
 
         $this->dataModel->createData($data);
         session()->setFlashdata('pesan', 'Data berhasil ditambah');

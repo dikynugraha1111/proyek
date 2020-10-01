@@ -12,9 +12,9 @@
               <ul>
                   <li class="active"><a href="/">Home</a></li>
                   <li><a href="/Siswa">Data</a></li>
-                  <li><a href="#counts">Feature</a></li>
-                  <li><a href="#gallery">Gallery</a></li>
-                  <li><a href="#team">Team</a></li>
+                  <li><a href="/Contact">Contact</a></li>
+                  <li><a href="/About">About</a></li>
+                  <li><a href="#">Team</a></li>
                   <li><a href="#pricing">Pricing</a></li>
                   <li class="drop-down"><a href="">Drop Down</a>
                       <ul>
