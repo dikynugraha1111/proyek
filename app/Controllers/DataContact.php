@@ -49,6 +49,6 @@ class DataContact extends BaseController
         $data = $this->dataContactModel->getDataId($id);
         $this->dataContactModel->deleteData($id);
         session()->setFlashdata('pesan', 'Data berhasil dihapus');
-        return redirect()->to('/DataPelanggaran');
+        return redirect()->to('/DataContact');
     }
 }
