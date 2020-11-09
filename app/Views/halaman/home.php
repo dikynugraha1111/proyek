@@ -56,19 +56,19 @@
 
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                        <h4 class="title"><a href="/Siswa">Temukan Dengan NIS</a></h4>
+                        <h4 class="title"><a href="">Temukan Dengan NIS</a></h4>
                         <p class="description">Anda dapat dengan mudah menemukan data dengan inputan NISN</p>
                     </div>
 
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon"><i class="ri-base-station-line"></i></div>
-                        <h4 class="title"><a href="/Siswa">Data Update dan Tersinkron</a></h4>
+                        <h4 class="title"><a href="">Data Update dan Tersinkron</a></h4>
                         <p class="description">Data yang ada kami jamin update dan tersinkronisasi dengan baik, dengan didukung API tersendiri yang kami buat</p>
                     </div>
 
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon"><i class="bx bx-atom"></i></div>
-                        <h4 class="title"><a href="/Siswa">Kemudahan di genggaman Tangan</a></h4>
+                        <h4 class="title"><a href="">Kemudahan di genggaman Tangan</a></h4>
                         <p class="description">Dapatkan dengan mudah mencari dan menemukan data tanpa hambatan MANTAN</p>
                     </div>
 
@@ -812,40 +812,38 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-5 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="footer-info">
-                        <h3>ArsipKita</h3>
-                        <p class="pb-3"><em>Dimana data terkumpul dan direkam secara jelas.</em></p>
+                        <h3>Bootslander</h3>
+                        <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
                         <p>
-                            Jl. Monginsidi No.24<br>
-                            Magetan , 63313<br><br>
-                            <strong>Phone:</strong>(0351)895076<br>
-                            <strong>Email:</strong>sman1magetan@sch.id<br>
+                            A108 Adam Street <br>
+                            NY 535022, USA<br><br>
+                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Email:</strong> info@example.com<br>
                         </p>
-                        <!-- <div class="social-links mt-3">
+                        <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                             <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 footer-links" style="padding-right: 0px;padding-left: 35px;">
-                    <h4>Social Media</h4>
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
                     <ul>
-                        <div class="social-links">
-                            <li><a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>@SMAN1MAGETAN</li>
-                            <li><a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>Sman 1 Magetan</li>
-                            <li><a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>@Smasa</li>
-                            <li><a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-</li>
-                            <li><a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>sman 1 magetan</li>
-                        </div>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                     </ul>
                 </div>
 
-                <!-- <div class="col-lg-2 col-md-6 footer-links">
+                <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Our Services</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -854,7 +852,7 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
                     </ul>
-                </div> -->
+                </div>
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4>Our Newsletter</h4>
@@ -871,14 +869,14 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong><span>ArsipKita2020</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Bootslander</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">-</a>
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
     </div>
 </footer><!-- End Footer -->

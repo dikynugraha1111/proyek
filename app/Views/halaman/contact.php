@@ -83,14 +83,22 @@
 <footer id="footer">
     <div class="container">
         <div class="copyright">
+<<<<<<< HEAD
             &copy; Copyright <strong><span>ArsipKita2020</span></strong>. All Rights Reserved
+=======
+            &copy; Copyright <strong><span>Bootslander</span></strong>. All Rights Reserved
+>>>>>>> 58c4665c813b9ab3fe3c2d5da54ebe0f00fee52b
         </div>
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
+<<<<<<< HEAD
             Designed by <a href="https://bootstrapmade.com/">-</a>
+=======
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+>>>>>>> 58c4665c813b9ab3fe3c2d5da54ebe0f00fee52b
         </div>
     </div>
 </footer><!-- End Footer -->

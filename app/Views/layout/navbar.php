@@ -3,7 +3,7 @@
       <div class="container d-flex align-items-center">
 
           <div class="logo mr-auto">
-              <h1 class="text-light"><a href="index.html"><span>ArsipKita</span></a></h1>
+              <h1 class="text-light"><a href="index.html"><span>Bootslander</span></a></h1>
               <!-- Uncomment below if you prefer to use an image logo -->
               <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
           </div>
@@ -14,7 +14,9 @@
                   <li><a href="/Siswa">Data</a></li>
                   <li><a href="/Contact">Contact</a></li>
                   <li><a href="/About">About</a></li>
-                  <!-- <li class="drop-down"><a href="">Drop Down</a>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#pricing">Pricing</a></li>
+                  <li class="drop-down"><a href="">Drop Down</a>
                       <ul>
                           <li><a href="#">Drop Down 1</a></li>
                           <li class="drop-down"><a href="#">Drop Down 2</a>
@@ -30,7 +32,8 @@
                           <li><a href="#">Drop Down 4</a></li>
                           <li><a href="#">Drop Down 5</a></li>
                       </ul>
-                  </li> -->
+                  </li>
+                  <li><a href="#contact">Contact</a></li>
                   <li class="btn btn-success" style="border-right-width: 23px; margin-left:17px"><a href="/login" role="button" style="padding-left: 20px;">Login</a></li>
 
               </ul>
