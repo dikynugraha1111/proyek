@@ -149,6 +149,22 @@
         </div>
     </div>
 </div>
+
+<footer id="footer" style="margin-top: 215px;">
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong><span>ArsipKita2020</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
+            Designed by <a href="https://bootstrapmade.com/">-</a>
+        </div>
+    </div>
+</footer><!-- End Footer -->
+
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="/package/dist/sweetalert2.all.min.js"></script>
 <script src="/package/dist/sweet.js"></script>

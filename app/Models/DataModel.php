@@ -79,6 +79,7 @@ class DataModel extends Model
             "tgl_lahir" => $data['tgl_lahir'],
             "alamat" => $data['alamat'],
             "lulus" => $data['lulus'],
+            "ijazah" => $data['ijazah'],
         ];
 
 
@@ -119,6 +120,7 @@ class DataModel extends Model
             "tgl_lahir" => $data['tgl_lahir'],
             "alamat" => $data['alamat'],
             "lulus" => $data['lulus'],
+            "ijazah" => $data['fileupload'],
         ];
         $response = $client->request('POST', 'http://localhost:8080/Data_Siswa_Controller/create', [
             'form_params' => $data2,

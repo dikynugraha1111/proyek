@@ -13,39 +13,34 @@ $this->section('body'); ?>
                 <b> Form Ubah Data Mahasiswa</b>
             </div>
             <div class="card-body">
-                <form action="/Data/saveEdit" method="post" enctype="multipart/form-data">
+                <form action="/DataPrestasi/saveEdit" method="post" enctype="multipart/form-data">
                     <div class="form-group">
-                        <input hidden type="number" name="id" class="form-control" id="id" value="<?= $siswa['id_data_siswa'] ?>">
-                        <label for="nisn">nisn</label>
-                        <input type="text" name="nisn" class="form-control" id="nisn" value="<?= $siswa['nisn']; ?>">
+                        <input hidden type="number" name="id" class="form-control" id="id" value="<?= $siswa['id_prestasi'] ?>">
+                        <label for="id_data_siswa">Id Data Siswa</label>
+                        <input type="number" name="id_data_siswa" class="form-control" id="id_data_siswa" value="<?= $siswa['id_data_siswa'] ?>">
+                    </div>
+                    <div class="form-group">
+                        <label for="tingkat">Tingkat</label>
+                        <input type="text" name="tingkat" class="form-control" id="tingkat" value="<?= $siswa['tingkat']; ?>">
 
                     </div>
                     <div class="form-group">
-                        <label for="nik">nik</label>
-                        <input type="text" name="nik" class="form-control" id="nik" value="<?= $siswa['nik']; ?>">
+                        <label for="penyelenggara">Penyelenggara</label>
+                        <input type="text" name="penyelenggara" class="form-control" id="penyelenggara" value="<?= $siswa['penyelenggara']; ?>">
 
                     </div>
                     <div class="form-group">
-                        <label for="nama">nama</label>
-                        <input type="text" name="nama" class="form-control" id="nama" value="<?= $siswa['nama']; ?>">
+                        <label for="nama_kegiatan">Nama Kegiatan</label>
+                        <input type="text" name="nama_kegiatan" class="form-control" id="nama_kegiatan" value="<?= $siswa['nama_kegiatan']; ?>">
                     </div>
                     <div class="form-group">
-                        <label for="tgl_lahir">tgl_lahir</label>
-                        <input type="date" name="tgl_lahir" class="form-control" id="tgl_lahir" value="<?= $siswa['tgl_lahir']; ?>">
+                        <label for="hasil">Hasil</label>
+                        <input type="text" name="hasil" class="form-control" id="hasil" value="<?= $siswa['hasil']; ?>">
                     </div>
                     <div class="form-group">
-                        <label for="alamat">alamat</label>
-                        <input type="text" name="alamat" class="form-control" id="alamat" value="<?= $siswa['alamat']; ?>">
-                    </div>
-                    <div class="form-group">
-                        <label for="lulus">lulus</label>
-                        <input type="text" name="lulus" class="form-control" id="lulus" value="<?= $siswa['lulus']; ?>">
-                    </div>
-
-                    <div class="form-group">
-                        <input type="hidden" name="fileLama" value="<?= $siswa['ijazah']; ?>">
-                        <label for="sertifikas">Ijazah</label>
-                        <div class="col-sm-5"><img src="/gambar/ijazah/<?= $siswa['ijazah']; ?>" alt="" class="img-thumbnail img-preview"></div>
+                        <input type="hidden" name="fileLama" value="<?= $siswa['piagam']; ?>">
+                        <label for="sertifikas">Sertifikat</label>
+                        <div class="col-sm-5"><img src="/gambar/prestasi/<?= $siswa['piagam']; ?>" alt="" class="img-thumbnail img-preview"></div>
                         <div class="custom-file">
                             <input type="file" class="custom-file-input" id="fileupload" name="fileupload" onchange="
                                     const value = document.getElementById('fileupload');
@@ -53,7 +48,7 @@ $this->section('body'); ?>
                                     const label = document.getElementById('label-file')
                                     label.textContent = newValue;
                                     ">
-                            <label class="custom-file-label" for="fileupload" id="label-file"><?= $siswa['ijazah']; ?></label>
+                            <label class="custom-file-label" for="fileupload" id="label-file"><?= $siswa['piagam']; ?></label>
                         </div>
 
                         <!-- <div class="custom-file">
@@ -61,7 +56,6 @@ $this->section('body'); ?>
                                     <label class="custom-file-label" for="fileupload">Pilih file</label>
                                 </div> -->
                     </div>
-
                     <button type="submit" name="edit" class="btn btn-primary float-right">Ubah Data</button>
                 </form>
             </div>

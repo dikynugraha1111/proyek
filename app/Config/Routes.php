@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use App\Controllers\DataContact;
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -35,6 +37,12 @@ $routes->get('/', 'Home::index');
 $routes->get('/login', 'Login::index');
 $routes->get('/Siswa/(:num)', 'Siswa::getSiswa/$1');
 $routes->get('/Data/(:num)', 'Data::detail/$1');
+
+$routes->get('/DataPrestasi/(:num)', 'DataPrestasi::detail/$1');
+
+$routes->get('/DataPelanggaran/(:num)', 'DataPelanggaran::detail/$1');
+
+$routes->get('DataContact/(:num)', 'DataContact::detail/$1');
 
 /**
  * --------------------------------------------------------------------
